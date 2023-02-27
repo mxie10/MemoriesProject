@@ -25,7 +25,6 @@ const App = () => {
             <Grow in>
                 <Container>
                     <Grid container className={classes.mainContainer} justify="space-between" alignItems="stretch" spacing={14}>
-                        {/* xs指的是大的设备，sm指的是small或medium设备 */}
                         <Grid item xs={12} sm={7}>
                             <Posts setCurrentId={setCurrentId}/>
                         </Grid>
